@@ -40,7 +40,7 @@ public class tricirInterface {
 			case 2 :
 			
 			cal=new calArea();
-			System.out.println("Input side length of square");
+			System.out.println("Input side length of the square");
 			s=sc.nextInt();
 			System.out.println("Area of the square is "+cal.Area(s));
 			break;
