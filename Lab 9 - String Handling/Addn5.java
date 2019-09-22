@@ -16,6 +16,7 @@ public class Addn5 {
           for(k=0;k<5;k++) {
             if(i==j||i==k||j==k) continue;
             else {
+              System.out.println("The three letter words are :");
               tlw.setCharAt(0,str.charAt(i));
               tlw.setCharAt(1,str.charAt(j));
               tlw.setCharAt(2,str.charAt(k));
