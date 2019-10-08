@@ -66,6 +66,7 @@ public class Q3{
         temp=strb.charAt(j);
         strb.setCharAt(j,strb.charAt(j+1));
         strb.setCharAt(j+1,temp);
+        
       }
     }
   }
